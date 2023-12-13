@@ -1,8 +1,7 @@
 @use "../../styles/variables" as *; 
 
 .employee-tile{
-    background-image: linear-gradient(to bottom left, $tile-light-color, $tile-dark-color);
-   // color: $white-color;
+    background-color: $tile-color;
     padding: 0rem 0rem 1rem 0rem;
     margin: 1rem;
     border-radius: 20px;
@@ -24,6 +23,7 @@
         font-family: $primary-font;
         font-size: 1.1rem;     
         padding: 0px 0px 0.5rem 1rem;
+        color: $background-color;
     }
 }
 
@@ -36,7 +36,6 @@
         margin: 0rem;
     }
 }
-
 
 @media screen and (min-width: $desktop-breakpoint) {
 

@@ -3,13 +3,18 @@ $tablet-breakpoint: 768px;
 $desktop-breakpoint: 1024px;
 
 // COLORS
-$tile-light-color: rgb(123,128,142);
-$tile-dark-color: rgb(77,79,89);
-$counter-color: rgb(161,163,171);
-$button-color: rgb(255,243,137);
-$white-color: white;
-$background-color-dark: rgb(28,29,41);
-$background-color-light: rgb(84,91,107);
+//$tile-light-color: rgb(123,128,142);
+//$tile-dark-color: rgb(77,79,89);
+//$counter-color: rgb(161,163,171);
+//$button-color: rgb(255,243,137);
+//$background-color-dark: rgb(28,29,41);
+//$background-color-light: rgb(84,91,107);
+
+$background-color: #0c3b2e;
+$tile-color: white;
+$counter-color: #6d9773;
+$button-color: #bb8a52;
+$accent-yellow: #ffba00;
 
 // FONTS
 $primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

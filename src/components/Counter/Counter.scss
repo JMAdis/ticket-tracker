@@ -3,6 +3,7 @@
 .counter{   
     border: 1px solid $counter-color;
     background-color: $counter-color;
+    color: white;
     border-radius: 20px;
     text-align: center;
     padding-bottom: 1.2rem;
@@ -11,6 +12,7 @@
 
     &__title{
         font-size: 1.25rem;
+        color: $accent-yellow;
     }
 
     &__decrement, &__increment{
@@ -18,6 +20,6 @@
         margin: 0rem 0.5rem 0rem 0.5rem;
         text-align: center;
         border: 0px;
-        background-color: $button-color;
+        background-color: $accent-yellow;       
     }
 }

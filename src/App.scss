@@ -3,10 +3,10 @@
 .page-title{
     font-size: 2rem;
     font-family: $primary-font;
-    color: $white-color;
+    color: $accent-yellow;
     text-align: center;
 }
 
 body{
-    background-image: linear-gradient(to bottom left, $background-color-dark, $background-color-light);
+    background-color: $background-color;
 }
