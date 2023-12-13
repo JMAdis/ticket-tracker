@@ -1,0 +1,19 @@
+.employee-tile{
+    border: 1px solid red;
+    margin: 0.5rem;
+    color: green;
+    padding: 0px;
+
+    &__name{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .employee-tiles-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

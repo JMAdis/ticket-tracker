@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react"
+import { EmployeeTile } from "./components/EmployeeTiles/EmployeeTiles"
+import team from "./data/TeamData"
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-    </>
-  )
+      <section className="tracker-container">
+        <h1>Ticket Tracker</h1>
+        < EmployeeTile team={team} />
+      </section>
+
+    )
 }
 
-export default App
+export default App;
