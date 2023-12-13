@@ -1,0 +1,12 @@
+@use "./styles/variables" as *; 
+
+.page-title{
+    font-size: 2rem;
+    font-family: $primary-font;
+    color: $white-color;
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(to bottom left, $background-color-dark, $background-color-light);
+}

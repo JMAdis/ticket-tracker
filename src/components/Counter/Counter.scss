@@ -1,5 +1,23 @@
-.counter{
-    border: 1px solid blue;
+@use "../../styles/variables" as *; 
+
+.counter{   
+    border: 1px solid $counter-color;
+    background-color: $counter-color;
+    border-radius: 20px;
     text-align: center;
     padding-bottom: 1.2rem;
+    width: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &__title{
+        font-size: 1.25rem;
+    }
+
+    &__decrement, &__increment{
+        border-radius: 50%;
+        margin: 0rem 0.5rem 0rem 0.5rem;
+        text-align: center;
+        border: 0px;
+        background-color: $button-color;
+    }
 }

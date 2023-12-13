@@ -13,7 +13,9 @@ export const EmployeeTile = ({team} : EmployeeTileProp) => {
             <section key={member.id} className="employee-tile">
                 <h1 className="employee-tile__name">{member.name}</h1>
                 <h1 className="employee-tile__role">{member.role}</h1>
-                <Counter />
+                <div className="employee-tile__counter-container">
+                    <Counter />
+                </div>
             </section>
             ))}
         </div>
