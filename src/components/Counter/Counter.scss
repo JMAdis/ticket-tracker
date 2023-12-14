@@ -1,0 +1,32 @@
+@use "../../styles/variables" as *; 
+
+.counter{   
+    border: 1px solid $accent-green;
+    background-color: $accent-green;
+    color: $white-color;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 1.2rem;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &__title{
+        font-size: 1.25rem;
+        color: $accent-yellow;
+    }
+
+    &__decrement, &__increment{
+        border-radius: 50%;
+        margin: 0rem 0.5rem 0rem 0.5rem;
+        text-align: center;
+        border: 0px;
+        background-color: $accent-yellow;       
+    }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+    .counter{
+        width: 75%;
+    }
+    
+}

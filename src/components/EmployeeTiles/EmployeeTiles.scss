@@ -1,0 +1,63 @@
+@use "../../styles/variables" as *; 
+
+.employee-tile{
+    background-color: $white-color;
+    margin: 1.3rem;
+    border-radius: 20px;
+    
+    &__counter-container{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &__name{
+        font-family: $primary-font;
+        font-size: 1.3rem;
+        margin-top: 0.5rem; 
+        padding: 1rem 0px 0px 1rem;
+        color: $accent-brown;
+    }
+    
+    &__role{
+        font-family: $primary-font;
+        font-size: 1.1rem;     
+        padding: 0px 0px 0.5rem 1rem;
+        color: $background-color;
+    }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+
+    .employee-tiles-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 0rem;
+    }
+
+    .employee-tile{
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+
+    .employee-tiles-container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0rem;
+        margin: 0rem;
+    }
+
+    .employee-tile{
+        &__name, &__role{
+            margin-top: 0.25rem; 
+            padding: 0rem 0.6rem 0px 0.6rem;
+        }
+
+        &__info{
+            height: 40%;
+        }
+    }
+}

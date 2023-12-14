@@ -1,0 +1,24 @@
+OldEmployeeSearchCode.tsx code
+
+
+const EmployeeSearch = ({employees}: EmployeeSearchProps) => {
+    const [searchQuery, setSearchTerm] = useState<string>("");
+
+    const handleInput = (event: FormEvent<HTMLInputElement>) => {
+        const cleanInput = event.currentTarget.value.toLowerCase();
+        setSearchTerm(cleanInput);
+    };
+
+    
+    return (
+        <>
+        <SearchBox 
+            label="employees"
+            handleInput={handleInput}
+            searchTerm={searchTerm}
+        />
+        < EmployeeTile team={team} /> />
+        </div>
+    )
+
+}

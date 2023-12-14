@@ -1,0 +1,22 @@
+@use "./styles/variables" as *; 
+
+.page-title{
+    font-size: 2rem;
+    font-family: $primary-font;
+    color: $accent-yellow;
+    text-align: center;
+}
+
+body{
+    background-color: $background-color;
+}
+
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 5000;
+   }
