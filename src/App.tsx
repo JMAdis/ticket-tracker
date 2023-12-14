@@ -6,7 +6,7 @@ import Snowfall from "react-snowfall";
 const App = () => {
   return (
       <section className="tracker-container">
-          <Snowfall />
+          <Snowfall /> 
         <h1 className="page-title">Ticket Tracker</h1>
         < EmployeeSearch team={team} />
       </section>

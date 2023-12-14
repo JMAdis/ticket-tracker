@@ -7,7 +7,7 @@
     border-radius: 20px;
     text-align: center;
     padding-bottom: 1.2rem;
-    width: 75%;
+    width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     &__title{
@@ -22,4 +22,11 @@
         border: 0px;
         background-color: $accent-yellow;       
     }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+    .counter{
+        width: 75%;
+    }
+    
 }
