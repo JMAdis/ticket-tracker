@@ -1,6 +1,7 @@
 import "./App.scss";
-import { EmployeeTile } from "./components/EmployeeTiles/EmployeeTiles"
+import EmployeeTile from "./components/EmployeeTiles/EmployeeTiles";
 import team from "./data/TeamData"
+// import SearchBox from "./components/SearchBox/SearchBox";
 
 const App = () => {
   return (
