@@ -1,4 +1,4 @@
-import React, { FormEvent, useState } from "react";
+import { FormEvent, useState } from "react";
 import EmployeeTile from "../../components/EmployeeTiles/EmployeeTiles";
 import SearchBox from "../../components/SearchBox/SearchBox";
 import { Employee } from "../../types/EmployeeInfo";
@@ -20,14 +20,14 @@ const EmployeeSearch = ({team} : EmployeeSearchProps) => {
     );
 
     return (
-        <section>
+        <>
             <SearchBox 
-            label="employees" 
-            handleInput={handleSearch}
-            searchTerm={searchQuery} 
+                label="employees" 
+                handleInput={handleSearch}
+                searchTerm={searchQuery} 
             />
             <EmployeeTile team={filteredTeam} />
-        </section>
+        </>
         );
 };
 
