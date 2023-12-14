@@ -1,7 +1,7 @@
 @use "../../styles/variables" as *; 
 
 .employee-tile{
-    background-color: $tile-color;
+    background-color: $white-color;
     padding-bottom: 1.3rem;
     margin: 1rem;
     border-radius: 20px;
@@ -16,7 +16,7 @@
         font-size: 1.3rem;
         margin-top: 0.5rem; 
         padding: 1rem 0px 0px 1rem;
-        color: $button-color;
+        color: $accent-brown;
     }
     
     &__role{

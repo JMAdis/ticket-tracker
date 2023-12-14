@@ -1,9 +1,9 @@
 @use "../../styles/variables" as *; 
 
 .counter{   
-    border: 1px solid $counter-color;
-    background-color: $counter-color;
-    color: white;
+    border: 1px solid $accent-green;
+    background-color: $accent-green;
+    color: $white-color;
     border-radius: 20px;
     text-align: center;
     padding-bottom: 1.2rem;
