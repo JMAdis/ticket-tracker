@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+<h1>Ticket Tracker App<h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Overview<h2>
+<p>The Ticket Tracker app is a React-based application designed to help users manage and track information related to employees and their respective tasks or tickets. The project consists of three main components: EmployeeTile, Counter, and SearchBox. Additionally, there is a custom styling using SCSS, giving the application a visually appealing and consistent look.</p>
 
-Currently, two official plugins are available:
+<h2>Components</h2>
+<h3>1. EmployeeTile</h3>
+<p>The EmployeeTile component is responsible for rendering information about employees, including their names, roles, and a counter component to track relevant metrics. The layout is organized in a grid structure, presenting each employee's details in a visually pleasing manner.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3>2. Counter </h3>
+<p>The Counter component is a reusable module that provides a simple counter feature. Users can increment or decrement the counter value, and the component visually displays the current count. This component is integrated into the EmployeeTile for tracking specific metrics.</p>
 
-## Expanding the ESLint configuration
+<h3>3. SearchBox</h3>
+<p>The SearchBox component facilitates searching functionality within the application. Users can input search queries to filter the displayed information, helping streamline the process of finding specific employees or tasks. The styling is customized using SCSS to create an aesthetically pleasing search interface.</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2>Styling</h2>
+<p>The application employs SCSS (Sass) for styling, enhancing the visual appeal and providing a consistent design throughout the user interface. The styles are modularized and applied to the respective components, ensuring a clean and organized structure.</p>
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h2>Easter Egg</h2>
+<p>In addition to the core functionality and styling, the project includes a festive touch with a Christmas snowfall easter egg - as a devDependency. This delightful feature adds a playful element to the application.</p>
