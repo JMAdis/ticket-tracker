@@ -1,4 +1,4 @@
-import { FormEvent, useState } from "react";
+import { FormEvent, memo, useState } from "react";
 import EmployeeTile from "../../components/EmployeeTiles/EmployeeTiles";
 import SearchBox from "../../components/SearchBox/SearchBox";
 import { Employee } from "../../types/EmployeeInfo";
@@ -16,7 +16,8 @@ const EmployeeSearch = ({team} : EmployeeSearchProps) => {
     };
 
     const filteredTeam = team.filter((member) =>
-        member.name.toLowerCase().includes(searchQuery.toLowerCase())
+        member.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        member.role.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
     return (
