@@ -17,4 +17,4 @@
 <p>The application employs SCSS (Sass) for styling, enhancing the visual appeal and providing a consistent design throughout the user interface. The styles are modularized and applied to the respective components, ensuring a clean and organized structure.</p>
 
 <h2>Easter Egg</h2>
-<p>In addition to the core functionality and styling, the project includes a festive touch with a Christmas snowfall easter egg - as a devDependency. This delightful feature adds a playful element to the application.</p>
+<p>In addition to the core functionality and styling, the project includes a festive touch with a Christmas snowfall easter egg. This delightful feature adds a playful element to the application, creating a more engaging user experience.</p>
