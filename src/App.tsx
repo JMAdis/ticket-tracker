@@ -1,12 +1,12 @@
 import "./App.scss";
-//import EmployeeTile from "./components/EmployeeTiles/EmployeeTiles";
 import EmployeeSearch from "./containers/EmployeeSearch/EmployeeSearch";
 import team from "./data/TeamData"
-// import SearchBox from "./components/SearchBox/SearchBox";
+import Snowfall from "react-snowfall";
 
 const App = () => {
   return (
       <section className="tracker-container">
+          <Snowfall />
         <h1 className="page-title">Ticket Tracker</h1>
         < EmployeeSearch team={team} />
       </section>
