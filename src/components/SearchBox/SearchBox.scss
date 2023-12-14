@@ -1,0 +1,22 @@
+@use "../../styles/variables" as *; 
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem 0rem 1rem;
+    color: $button-color;
+  
+    .search-box__label {
+      font-size: 1.1rem;
+      font-family: $primary-font;
+      font-weight: bold;
+    }
+  
+    .search-box__input {
+      margin: 1rem 0;
+      padding: 0.5rem;
+      font-size: 1.1rem;
+      border-radius: 1rem;
+      color: $button-color;
+    }
+}

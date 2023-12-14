@@ -1,4 +1,4 @@
-import { FormEvent, memo, useState } from "react";
+import { FormEvent, useState } from "react";
 import EmployeeTile from "../../components/EmployeeTiles/EmployeeTiles";
 import SearchBox from "../../components/SearchBox/SearchBox";
 import { Employee } from "../../types/EmployeeInfo";
